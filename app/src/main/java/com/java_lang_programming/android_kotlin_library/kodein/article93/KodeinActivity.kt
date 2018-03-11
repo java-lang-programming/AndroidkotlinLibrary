@@ -25,6 +25,7 @@ class KodeinActivity : AppCompatActivity() {
 
         btn_factory.setOnClickListener(onClickFactoryListener)
         //btn_provider.setOnClickListener(onClickProviderListener)
+        //displayList();
     }
 
     private val onClickFactoryListener = View.OnClickListener {

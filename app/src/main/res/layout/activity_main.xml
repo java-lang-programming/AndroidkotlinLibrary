@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.java_lang_programming.android_kotlin_library.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_kodein"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -15,9 +16,4 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
 </android.support.constraint.ConstraintLayout>
